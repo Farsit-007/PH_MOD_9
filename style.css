@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+main,
+.back {
+    max-width: 1440px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 30px 180px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner-text {
+    text-align: center;
+    width: 770px;
+    margin: 0 auto;
+}
+
+.header-lf-text {
+    color: #131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.banner-section img {
+    width: 100%;
+}
+
+.banner-text h1 {
+    width: 55%;
+    margin: 0 auto;
+    color: #131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner-text p {
+    color: #727272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.banner-text {
+    padding: 70px 0;
+}
+
+.team-mem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+}
+
+.content {
+    width: 75%;
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.content h1 {
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.O {
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.F {
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.fact {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.item {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 20px;
+}
+
+.some-h1 {
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.some-p {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+}
+
+.item h1 {
+    color: #424242;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.item p {
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.spos-image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.spos-1 {
+    text-align: center;
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.spos-2 {
+    color: #727272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+}
+
+.spos-image {
+    padding: 50px 0;
+}
+
+.back {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.back-p {
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.feature .f-con-1  {
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-left: 4px solid #FF900E;
+    padding-left: 5px;
+}
+
+.feature .f-con-2 {
+    width: 500px;
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 100%;
+}
+
+.itp {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    width: 500px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.itp p {
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    width: 98%;
+}
+
+.itp h1 {
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.img-a {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    
+}
+.f-image img{
+    margin-left: 60px;
+}
+.f1-des{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.f1-p{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    .banner-text {
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav,
+    .team-mem,
+    .fact,
+    .spos-image,
+    .feature  {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-text h1 {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .image-gallery {
+        grid-template-columns: 100%;
+        gap: 10px;
+    }
+
+    .some-p,
+    .spos-2 {
+        width: 100%;
+        text-align: center;
+    }
+    .itp , .feature .f-con-2 {
+        width: 100%;
+    }
+    .some-h1 {
+        text-align: center;
+    }
+    .f-image img {
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        padding: 40px;
+    }
+
+    .banner-text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    nav,
+    .team-mem,
+    .spos-image,
+    .feature  {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .banner-text h1 {
+        width: 85%;
+    }
+
+    .content {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .itp , .feature .f-con-2 {
+        width: 100%;
+    }
+    .f-image img {
+        margin-left: 0;
+    }
+}
